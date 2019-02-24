@@ -1,0 +1,17 @@
+name: crynion
+version: 0.1.0
+
+authors:
+  - Aleksey Slivka <slivka77@inbox.ru>
+
+targets:
+  crynion:
+    main: src/crynion.cr
+
+crystal: 0.27.2
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
